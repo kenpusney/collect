@@ -1,3 +1,4 @@
+// ArrayIterator is a wrapper for native array
 package collect
 
 type ArrayIterator struct {
