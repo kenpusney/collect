@@ -17,6 +17,10 @@ func (a *ArrayIterator) Next() interface{} {
 	return value
 }
 
+func (i *ArrayIterator) GetIterator() Iterator {
+	return i
+}
+
 func NewArrayIterator(array []interface{}) *ArrayIterator {
 	return &ArrayIterator{array: array, length: len(array)}
 }

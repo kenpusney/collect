@@ -76,3 +76,7 @@ func (l *LinkedListIterator) Next() interface{} {
 	l.current++
 	return value
 }
+
+func (l *LinkedListIterator) GetIterator() Iterator {
+	return l
+}

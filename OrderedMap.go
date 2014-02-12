@@ -1,5 +1,6 @@
 package collect
 
+//RB-Tree as backend
 type OrderedMap struct {
 	root   *omap_cell
 	less   func(interface{}, interface{}) bool
