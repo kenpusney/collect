@@ -1,8 +1,8 @@
 package test
 
 import (
-	"collect"
-	"collect/algo"
+	"github.com/kenpusney/collect"
+	"github.com/kenpusney/collect/algo"
 	"testing"
 )
 

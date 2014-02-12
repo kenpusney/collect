@@ -1,7 +1,7 @@
 package test
 
 import (
-	"collect"
+	"github.com/kenpusney/collect"
 	"testing"
 )
 

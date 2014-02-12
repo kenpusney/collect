@@ -1,7 +1,7 @@
 package util
 
 import (
-	"collect"
+	"github.com/kenpusney/collect"
 	//"collect/algo"
 )
 

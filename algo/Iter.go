@@ -1,7 +1,7 @@
 package algo
 
 import (
-	"collect"
+	"github.com/kenpusney/collect"
 )
 
 func ForEach(iter collect.Iterator, fun func(interface{})) {
